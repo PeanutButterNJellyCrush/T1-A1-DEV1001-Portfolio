@@ -34,20 +34,55 @@ header, footer{
 header{
     min-height: 10vh;
     max-height: 20vh;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
 
 }
 
 nav{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    gap: 2em;
+    gap: 4em;
 }
 
 .nav_bar{
     display: flex;
-    gap: 0.8em;
+    gap: 0.8em; 
+    justify-items: flex-end;
+    align-self: center;
 
+}
+
+ul{
+    display:flex;
+    align-items: center;
+    gap: 3em;
+}
+
+nav ul a{ 
+    color: black;
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul a:hover{ 
+    opacity: 1;
+}
+
+.button_contact{ 
+    padding: 0.5em 1em;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px ;
+    border-radius: 8px;
+    font-size: 1.1em;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #e6a172;
+    color: black;
 }
 
 main{
@@ -60,6 +95,7 @@ main{
     width: 100%;
     border-radius: 8px;
     margin-top: 50px;
+    object-fit: cover;
 
 }
 h2{
@@ -70,6 +106,28 @@ p{
     margin-top: 1em;    
     margin-bottom: 1em;
 }
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap:4em;
+    padding-top: 2em;
+}
+
+button{
+    background-color: var(--bg_color);
+    width: 8em;
+    height: 5em;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--secondary_bg_color) ;
+}
+
 footer{
     min-height: 7vh;
     max-height: 10vh;
