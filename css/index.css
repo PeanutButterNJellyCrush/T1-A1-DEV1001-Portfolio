@@ -94,8 +94,9 @@ main{
 
 .main_photo{ 
     width: 100%;
-    border-radius: 8px;
-    margin-top: 50px;
+    border-radius: 1rem;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
     object-fit: cover;
 
 }
@@ -137,22 +138,14 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-
-    display: flex;
-    justify-content: space-between;
 }
 
-
-.footer_copyright{
-    width: 4em;
-    
-}
-.footer_icon{
+footer{
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
 .social_icons a img{
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
 }
