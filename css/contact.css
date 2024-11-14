@@ -75,7 +75,7 @@ nav ul a:hover{
     color: black;
     font-weight: 500;
     letter-spacing: 1px ;
-    border-radius: 8px;
+    border-radius: 0.6rem;
     font-size: 1.1em;
     border: 2px solid black;
     cursor: pointer;
@@ -90,8 +90,7 @@ nav ul a:hover{
     padding: 0.5em 1em;
     color: black;
     font-weight: 500;
-    letter-spacing: 1px ;
-    border-radius: 8px;
+    border-radius: 0.6rem;
     font-size: 1.1em;
     border: 2px solid black;
     cursor: pointer;
@@ -158,7 +157,6 @@ button{
 footer{
     min-height: 7vh;
     max-height: 10vh;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
