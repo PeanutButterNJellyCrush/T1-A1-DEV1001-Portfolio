@@ -74,6 +74,7 @@ nav ul a:hover{
     border: 2px solid black;
     cursor: pointer;
 }
+
 .button:hover{
     background-color: #e6a172;
     color: black;
@@ -183,4 +184,71 @@ footer{
 .social_icons a img{
     width: 3em;
     height: 3em;
+}
+
+
+@media only screen and (min-width: 768px) 
+and (max-device-width: 1024px) {
+    nav{
+        gap: 10em;
+        padding-top: 1.5rem;
+    }
+
+    .nav_bar{
+        gap: 2em; 
+        font-size: x-large;
+    }
+    .button_contact{
+        font-size: x-large;
+
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_photo{ 
+        width: 60%;
+        border-radius: 1rem;
+        margin-top: 2rem; 
+        margin-bottom: 2rem;
+        justify-content: center; */
+
+     
+    }
+}
+
+@media only screen 
+and (min-width : 1224px) {
+    nav{
+        gap: 15em;
+        padding-top: 1.5rem;
+    }
+
+    .nav_bar{
+        gap: 2em; 
+        font-size: x-large;
+    }
+    .button_contact{
+        font-size: x-large;
+
+    }
+    main{
+        display: flex;
+    }
+    
+    .main_photo{ 
+        width: 40%;
+        border-radius: 1rem;
+        justify-content: center;
+
+    } 
+    .about_container{
+        padding-top: 5rem;
+        margin: 2rem;
+  
+    }
+
 }

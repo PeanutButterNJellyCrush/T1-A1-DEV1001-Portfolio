@@ -94,9 +94,8 @@ nav ul a:hover{
     font-size: 1.1em;
     border: 2px solid black;
     cursor: pointer;
-    transition: 0.4s ease-in-out;
-    
 }
+
 .button:hover{
     background-color: #e6a172;
     color: black;
