@@ -173,10 +173,9 @@ footer{
     max-height: 10vh;
     left: 0;
     bottom: 0;
-    width: 100vw;
-}
+    width: 100%;
+    position: fixed;
 
-footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,8 +186,9 @@ footer{
 }
 
 
-@media only screen and (min-width: 768px) 
-and (max-device-width: 1024px) {
+@media only screen and (min-width: 600px) 
+and (min-device-height:600px)
+and (orientation: landscape) {
     nav{
         gap: 10em;
         padding-top: 1.5rem;
@@ -214,21 +214,23 @@ and (max-device-width: 1024px) {
         border-radius: 1rem;
         margin-top: 2rem; 
         margin-bottom: 2rem;
-        justify-content: center; */
+        justify-content: center;
 
      
     }
 }
 
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 900px) 
+and (min-device-height:600px)
+and (orientation: landscape){
     nav{
         gap: 15em;
         padding-top: 1.5rem;
     }
 
     .nav_bar{
-        gap: 2em; 
+        gap: 5em; 
         font-size: x-large;
     }
     .button_contact{

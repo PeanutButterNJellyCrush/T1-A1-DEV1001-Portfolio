@@ -101,18 +101,14 @@ nav ul a:hover{
     color: black;
 }
 .contact_form_container{
-    width: 100%;
-    max-width: 1536px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 .contact_form h1{ 
     text-align: center;
     margin-top: 1em;
-    margin-bottom: 1em;
     font-size: 3em;
 
 }
@@ -159,14 +155,79 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-}
+    position: fixed;
 
-footer{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .social_icons a img{
     width: 3em;
     height: 3em;
+}
+
+@media only screen and (min-width: 600px) 
+and (min-device-height:600px)
+and (orientation: landscape) {
+    nav{
+        gap: 10em;
+        padding-top: 1.5rem;
+    }
+
+    .nav_bar{
+        gap: 2em; 
+        font-size: x-large;
+    }
+    .button_contact{
+        font-size: x-large;
+
+    }
+    .contact_form_container{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    }
+
+@media only screen 
+and (min-width : 900px) 
+and (min-device-height:600px){
+
+    nav{{
+        gap: 15em;
+        padding-top: 1.5rem;
+    }
+
+    .nav_bar{
+        gap: 5em; 
+        font-size: x-large;
+    }
+    .button_contact{
+        font-size: x-large;
+
+    }
+    .contact_form_container{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+}
+}
+
+@media only screen 
+and (min-width : 1200px) 
+and (min-device-height:900px){
+    .contact_form_container{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .input_box{
+        width: 120%;
+    }
+    # message_box{
+
+    }
 }
