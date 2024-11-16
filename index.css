@@ -29,6 +29,7 @@ body{
 
 header, footer{
      background-color: var(--secondary_bg_color);
+     width: 100vw;
 }
 
 header{
@@ -37,6 +38,7 @@ header{
     display: flex;
     align-items: center;   
     justify-content: center;
+    width: 100%;
 }
 
 nav{
@@ -153,9 +155,14 @@ footer{
 }
 
 
-@media only screen and (min-width: 600px) 
-and (min-device-height:600px)
-and (orientation: landscape) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width 400px){
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     nav{
         gap: 10em;
         padding-top: 1.5rem;
@@ -181,31 +188,41 @@ and (orientation: landscape) {
         border-radius: 1rem;
         margin-top: 2rem; 
         margin-bottom: 2rem;
-        justify-content: center;
-
-    
+        justify-content: center; 
     }
+}
 
-    }
-
-    @media only screen 
-    and (min-width : 900px) 
-    and (min-device-height:600px)
-    and (orientation: landscape){
+    /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
     nav{
-        gap: 15em;
-        padding-top: 1.5rem;
+        gap: 4rem;
     }
 
     .nav_bar{
-        gap: 5em; 
+        gap: 4em; 
+        font-size:large;
+    }
+    .button_contact{
+        font-size: large;
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    nav{
+        gap: 8em;
+    }
+
+    .nav_bar{
+        gap: 3em; 
         font-size: x-large;
     }
     .button_contact{
         font-size: x-large;
 
     }
-
+    
     main{
         display: flex;
         justify-content: center;
@@ -224,22 +241,20 @@ and (orientation: landscape) {
     }
     h2{
         font-size: 2rem;
-    }
+    } 
 }
     
-@media only screen 
-    and (min-width : 1200px) 
-    and (min-device-height:600px)
-    and (orientation: landscape){
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     .main_photo{
         position: fixed;
-        left: 3rem;
+        left: 5rem;
         }
     main{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-    
+        height: auto;
     }
 
-    }           
+}           

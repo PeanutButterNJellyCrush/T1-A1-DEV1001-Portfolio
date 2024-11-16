@@ -44,6 +44,8 @@ The site was deployed using Netlify, connected to GitHub.
 - Documents
   - dummy resume sourced from from [Southern Louisana Univeristy](https://www.southeastern.edu/admin/career_srv/student_alumni/build_a_resume/resume_guide/samples/)
 
-
 - Photos
 https://pixabay.com/illustrations/woman-coffee-cup-of-coffee-cup-8439003/
+
+- Typical Device Breakpoints
+Dimensions used were based on [w3schools.com](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp)
