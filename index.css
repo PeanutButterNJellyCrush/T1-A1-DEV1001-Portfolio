@@ -155,7 +155,7 @@ footer{
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 600px) {
     nav{
         gap: 10em;
@@ -184,7 +184,7 @@ footer{
         margin-bottom: 2rem;
         justify-content: center; 
     }
-}
+} */
 
     /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
