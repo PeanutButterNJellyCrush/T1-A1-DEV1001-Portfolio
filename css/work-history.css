@@ -151,9 +151,9 @@ footer{
     height: 3em;
 }
 
-@media only screen and (min-width: 600px) 
-and (min-device-height:600px)
-and (orientation: landscape) {
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     nav{
         gap: 10em;
         padding-top: 1.5rem;
@@ -175,54 +175,88 @@ and (orientation: landscape) {
         align-items: center;
     }
     .main_photo{ 
-        width: 60%;
+        width: 80%;
         border-radius: 1rem;
         margin-top: 2rem; 
         margin-bottom: 2rem;
-        justify-content: center;
-
-     
+        justify-content: center; 
     }
 }
 
-@media only screen 
-and (min-width : 900px) 
-and (min-device-height:600px)
-and (orientation: landscape){
+    /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
     nav{
-        gap: 15em;
-        padding-top: 1.5rem;
+        gap: 4rem;
     }
 
     .nav_bar{
-        gap: 2em; 
+        gap: 4em; 
+        font-size:large;
+    }
+    .main_photo{ 
+        width: 70%;
+    }
+
+    .button_contact{
+        font-size: large;
+
+    }
+    .work_container{
+        margin-bottom: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    nav{
+        gap: 8em;
+    }
+
+    .nav_bar{
+        gap: 3em; 
         font-size: x-large;
     }
     .button_contact{
         font-size: x-large;
 
     }
+    
     main{
         display: flex;
-    }
-    
-    .main_photo{ 
-        width: 40%;
-        border-radius: 1rem;
         justify-content: center;
-
-    } 
-    .about_container{
-        padding-top: 5rem;
-        margin: 2rem;
-  
+        align-items:center;
+        flex-wrap: wrap;
     }
-
+    .main_photo{ 
+        width: 60%;
+        border-radius: 1rem;
+        margin-top: 2rem; 
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+    .work_container{
+        width: 50%;
+        font-size: larger;
+    }
 }
 
+    
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main_photo{
+        position: fixed;
+        left: 5rem;
+        }
 
-@media only screen 
-and (min-width : 1200px) 
-and (min-device-height:600px)
-and (orientation: landscape){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: auto;
+    }
+
+    .main_photo{ 
+        width: 40%;
+    }
+
 }

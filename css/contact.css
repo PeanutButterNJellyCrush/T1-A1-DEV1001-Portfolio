@@ -173,24 +173,24 @@ footer{
 }
 @media only screen and (min-width: 600px) 
 and (min-device-height:600px){
-    nav{
+    /* nav{
         gap: 10em;
         padding-top: 1.5rem;
     }
 
     .nav_bar{
         gap: 2em; 
-        font-size: x-large;
+        font-size: large;
     }
     .button_contact{
-        font-size: x-large;
+        font-size: large;
 
     }
     .contact_form_container{
         justify-content: center;
         align-items: center;
         align-self: center;
-    }
+    } */
 
     }
 
