@@ -155,12 +155,6 @@ footer{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width 400px){
-
-}
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     nav{
@@ -239,6 +233,7 @@ footer{
     .info{
         padding: 3rem;
     }
+
     h2{
         font-size: 2rem;
     } 
@@ -250,6 +245,7 @@ footer{
         position: fixed;
         left: 5rem;
         }
+
     main{
         display: flex;
         flex-direction: column;
