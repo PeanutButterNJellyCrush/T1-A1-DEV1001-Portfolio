@@ -166,7 +166,7 @@ footer{
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and
-(max-width: 991px) {
+(max-width: 768px) {
     .nav_bar{
         gap: 3em;
         font-size: larger;
@@ -180,7 +180,8 @@ footer{
 }
 
     /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and
+(max-width: 991px){
     nav{
         gap: 4rem;
     }
@@ -197,6 +198,15 @@ footer{
         font-size: large;
 
     }
+    .box{
+        width: 35%;
+ 
+    }
+    .projects_container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
 
 }
 
@@ -212,7 +222,6 @@ footer{
     }
     .button_contact{
         font-size: x-large;
-
     }
 }
     
