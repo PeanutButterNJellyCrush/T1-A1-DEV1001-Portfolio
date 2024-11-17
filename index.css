@@ -155,38 +155,7 @@ footer{
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {
-    nav{
-        gap: 10em;
-        padding-top: 1.5rem;
-    }
-
-    .nav_bar{
-        gap: 2em; 
-        font-size: x-large;
-    }
-    .button_contact{
-        font-size: x-large;
-
-    }
-
-    main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .main_photo{ 
-        width: 60%;
-        border-radius: 1rem;
-        margin-top: 2rem; 
-        margin-bottom: 2rem;
-        justify-content: center; 
-    }
-} */
-
-    /* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
     nav{
         gap: 4rem;
@@ -200,6 +169,18 @@ footer{
         font-size: large;
 
     }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_photo{ 
+        width: 60%;
+        border-radius: 1rem;
+        margin-top: 2rem; 
+        margin-bottom: 2rem;
+        justify-content: center; 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
