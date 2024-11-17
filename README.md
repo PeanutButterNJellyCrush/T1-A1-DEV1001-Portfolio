@@ -20,7 +20,7 @@ The icons I selected were mostly deco or line style to keep the website style si
 Hover
 Buttons
 
-### Navigation
+## Navigation
 - About 
 The page provides a short information to my professional background and my hobbies. A work history button is available on the page to enable the user to navigate to detailed work history information, and another button to download a dummy cv.
 
