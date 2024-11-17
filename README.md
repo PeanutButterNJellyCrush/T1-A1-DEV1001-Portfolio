@@ -22,10 +22,10 @@ Hover
 Buttons
 
 ### Navigation
--About 
+- About 
 The page provides a short information to my professional background and my hobbies. A work history button is available on the page to enable the user to navigate to detailed work history information, and another button to download a dummy cv.
 
--Projects 
+- Projects 
 The page showcases dummy past projects. 
 
 - Get in Touch with me page.
@@ -38,7 +38,7 @@ The site was deployed using Netlify, connected to GitHub.
 
 ## Acknowledgments
 
-- Icons
+- [Icons](icon8.com)
 - Documents
   - dummy resume sourced from from [Southern Louisana Univeristy](https://www.southeastern.edu/admin/career_srv/student_alumni/build_a_resume/resume_guide/samples/)
 
