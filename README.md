@@ -1,6 +1,5 @@
-#Portfolio Project# 
 
-## Purpose of Portfolio
+## Portfolio Project
 The purpose of this portfolio is to incorporate learnings from the course into a functional deloyed website.
 This portfolio website is to contain a home page for the user to return to as well as enabling the user to navigate to different sections using the navigation bar. 
 This portfolio will include information for the user to get to know about the author, myself. 
@@ -43,7 +42,8 @@ The site was deployed using Netlify, connected to GitHub.
   - dummy resume sourced from from [Southern Louisana Univeristy](https://www.southeastern.edu/admin/career_srv/student_alumni/build_a_resume/resume_guide/samples/)
 
 - Photos/Images
-https://pixabay.com/illustrations/woman-coffee-cup-of-coffee-cup-8439003/
+[Pixabay](https://pixabay.com/illustrations/woman-coffee-cup-of-coffee-cup-8439003/)
+[Pexels](https://www.pexels.com/)
 
 - Typical Device Breakpoints
 Dimensions used were based on [w3schools.com](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp)
