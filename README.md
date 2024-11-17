@@ -38,7 +38,7 @@ The site was deployed using Netlify, connected to GitHub.
 
 ## Acknowledgments
 
-- [Icons](icon8.com)
+- [Icons](https://icons8.com/icons)
 - Documents
   - dummy resume sourced from from [Southern Louisana Univeristy](https://www.southeastern.edu/admin/career_srv/student_alumni/build_a_resume/resume_guide/samples/)
 
